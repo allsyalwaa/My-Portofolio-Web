@@ -12,7 +12,8 @@ import nodejs from "../../assets/nodejs.svg";
 import npm from "../../assets/npm.svg";
 import vite from "../../assets/vite.svg";
 
-import CardLogo from "../ui/CardLogo";
+import CardSkills from "../ui/CardSkills";
+import CardTools from "../ui/CardTools";
 
 export default function SecSkills() {
   return (
@@ -23,28 +24,28 @@ export default function SecSkills() {
         </h1>
 
         <div className="mt-8 grid grid-cols-4 gap-8">
-          <CardLogo image={html} />
-          <CardLogo image={css} />
-          <CardLogo image={sass} />
-          <CardLogo image={bootstrap} />
+          <CardSkills image={html} />
+          <CardSkills image={css} />
+          <CardSkills image={sass} />
+          <CardSkills image={bootstrap} />
         </div>
 
         <div className="mt-8 grid grid-cols-3 gap-8 px-32">
-          <CardLogo image={tailwind} />
-          <CardLogo image={react} />
-          <CardLogo image={javascript} />
+          <CardSkills image={tailwind} />
+          <CardSkills image={react} />
+          <CardSkills image={javascript} />
         </div>
 
         <h1 className="mt-10 text-center text-2xl font-bold text-white">
           - My Tools -
         </h1>
         <div className="mt-8 grid grid-cols-6 gap-8">
-          <CardLogo image={figma} />
-          <CardLogo image={vscode} />
-          <CardLogo image={github} />
-          <CardLogo image={nodejs} />
-          <CardLogo image={npm} />
-          <CardLogo image={vite} />
+          <CardTools image={figma} />
+          <CardTools image={vscode} />
+          <CardTools image={github} />
+          <CardTools image={nodejs} />
+          <CardTools image={npm} />
+          <CardTools image={vite} />
         </div>
       </div>
     </section>
