@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-6 bg-primary py-2">
+      <div className="mt-2 bg-primary py-2">
         <p className="text-center text-base font-semibold text-white">
           Copyright © 2024 Zulfia Dwi Al Syalwa
         </p>
