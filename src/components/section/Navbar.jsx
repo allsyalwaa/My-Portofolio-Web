@@ -30,49 +30,34 @@ export default function Navbar() {
             ref={sidebarRef}
             className={`text-secondary items-center justify-center gap-6 text-white ${isOpen ? "fixed right-0 top-0 z-10 flex h-screen w-1/3 flex-col items-start justify-start gap-4 bg-primary px-10 py-14 text-white" : "hidden"} md:flex`}
           >
-            <li
-              className={`text-md font-semibold ${isOpen ? "hidden" : "block"}`}
-            >
+            <li className={`text-md font-semibold ${isOpen ? "block" : ""}`}>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li
-              className={`text-md font-semibold ${isOpen ? "hidden" : "block"}`}
-            >
+            <li className={`text-md font-semibold ${isOpen ? "block" : ""}`}>
               <NavLink to="/">About</NavLink>
             </li>
-            <li
-              className={`text-md font-semibold ${isOpen ? "hidden" : "block"}`}
-            >
+            <li className={`text-md font-semibold ${isOpen ? "block" : ""}`}>
               <NavLink to="/">Skills</NavLink>
             </li>
-            <li
-              className={`text-md font-semibold ${isOpen ? "hidden" : "block"}`}
-            >
+            <li className={`text-md font-semibold ${isOpen ? "block" : ""}`}>
               <NavLink to="/">Projects</NavLink>
             </li>
             <li className={`${isOpen ? "block" : "hidden"}`}>
               <NavLink to="/">
-                <Button variant="primary">About Us</Button>
+                <Button variant="primary">Contact Me</Button>
               </NavLink>
             </li>
           </ul>
 
-          <div>
-            <div className={`${isOpen ? "hidden" : "block"}`}>
-              <NavLink to="/">
-                <Button variant="primary">Contact Me</Button>
-              </NavLink>
-            </div>
-            <div className={`${isOpen ? "block" : "hidden"}`}>
-              <NavLink to="/">
-                <Button variant="primary">Contact Me</Button>
-              </NavLink>
-            </div>
+          <div className={`${isOpen ? "block" : "hidden"}`}>
+            <NavLink to="/">
+              <Button variant="primary">Contact Me</Button>
+            </NavLink>
           </div>
 
           <button
             onClick={() => setIsOpen((prev) => !prev)}
-            className={`text-secondary z-20 block md:hidden ${
+            className={`text-secondary z-20 block text-white md:hidden ${
               isOpen ? "hidden" : "relative"
             }`}
           >
