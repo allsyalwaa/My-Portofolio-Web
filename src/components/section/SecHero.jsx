@@ -41,7 +41,7 @@ export default function SecHero() {
             </Button>
           </div>
           <div>
-            <img src={Profile} alt="" />
+            <img src={} alt="" />
           </div>
         </div>
       </div>
