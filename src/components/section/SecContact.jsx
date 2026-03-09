@@ -21,7 +21,7 @@ export default function SecContact() {
                 />
               </svg>
             }
-            text={"zulfiadwialsyalwa2003@mail.ugm.ac.id"}
+            text={""}
           />
           <CardContact
             icon={
@@ -37,7 +37,7 @@ export default function SecContact() {
                 />
               </svg>
             }
-            text={"+62 812 2599 9832"}
+            text={""}
           />
           <CardContact
             icon={
@@ -53,7 +53,7 @@ export default function SecContact() {
                 />
               </svg>
             }
-            text={"zulfiaasyal_"}
+            text={""}
           />
           <CardContact
             icon={
@@ -69,7 +69,7 @@ export default function SecContact() {
                 />
               </svg>
             }
-            text={"Zulfia Dwi Al Syalwa"}
+            text={""}
           />
           <CardContact
             icon={
@@ -85,7 +85,7 @@ export default function SecContact() {
                 />
               </svg>
             }
-            text={"Sinduadi, Sleman, Yogyakarta"}
+            text={""}
           />
         </div>
       </div>
